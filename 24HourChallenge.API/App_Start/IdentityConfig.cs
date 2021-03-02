@@ -4,6 +4,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using _24HourChallenge.API.Models;
+using _24HourChallenge.Data;
+using System;
 
 namespace _24HourChallenge.API
 {
@@ -40,6 +42,11 @@ namespace _24HourChallenge.API
                 manager.UserTokenProvider = new DataProtectorTokenProvider<ApplicationUser>(dataProtectionProvider.Create("ASP.NET Identity"));
             }
             return manager;
+        }
+
+        internal Task<IdentityResult> CreateAsync(ApplicationUser user)
+        {
+            throw new NotImplementedException();
         }
     }
 }
