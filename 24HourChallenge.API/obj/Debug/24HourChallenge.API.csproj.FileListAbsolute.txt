@@ -1,0 +1,2 @@
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.API\obj\Debug\24HourChallenge.API.csprojAssemblyReference.cache
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.API\obj\Debug\24HourChallenge.API.csproj.CoreCompileInputs.cache

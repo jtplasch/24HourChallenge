@@ -3,7 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-using _24HourChallenge.API.Models;
+using _24HourChallenge.Data;
 
 namespace _24HourChallenge.API
 {
