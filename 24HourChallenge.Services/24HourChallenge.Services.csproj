@@ -4,12 +4,20 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{9BB9C5F7-9C41-431C-A7CF-A78059A8D114}</ProjectGuid>
+=======
+    <ProjectGuid>{FF6966AF-9BA2-437A-8AAA-CA5C5694EE2D}</ProjectGuid>
+>>>>>>> master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_24HourChallenge.Services</RootNamespace>
     <AssemblyName>24HourChallenge.Services</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+>>>>>>> master
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -54,11 +62,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="PostService.cs" />
+>>>>>>> master
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ProjectReference Include="..\24HourChallenge.Data\24HourChallenge.Data.csproj">
+      <Project>{2e99dd0e-d522-4b8b-b248-a6a18628cb92}</Project>
+      <Name>24HourChallenge.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourChallenge.Models\24HourChallenge.Models.csproj">
+      <Project>{d279682a-6190-48ea-a177-e92b88f6d6b2}</Project>
+      <Name>24HourChallenge.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+>>>>>>> master
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

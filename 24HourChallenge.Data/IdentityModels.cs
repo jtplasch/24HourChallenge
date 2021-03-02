@@ -32,6 +32,7 @@ namespace _24HourChallenge.Data
         {
             return new ApplicationDbContext();
         }
+<<<<<<< HEAD:24HourChallenge.Data/IdentityModels.cs
         public DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -40,6 +41,14 @@ namespace _24HourChallenge.Data
             .Conventions
             .Remove<PluralizingTableNameConvention>();
 
+=======
+        public DbSet<Post> Posts { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Conventions
+                .Remove<PluralizingTableNameConvention>();
+>>>>>>> master:24HourChallenge.API/Models/IdentityModels.cs
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
@@ -62,5 +71,8 @@ namespace _24HourChallenge.Data
             HasKey(iur => iur.UserId);
         }
     }
+<<<<<<< HEAD:24HourChallenge.Data/IdentityModels.cs
 
+=======
+>>>>>>> master:24HourChallenge.API/Models/IdentityModels.cs
 }

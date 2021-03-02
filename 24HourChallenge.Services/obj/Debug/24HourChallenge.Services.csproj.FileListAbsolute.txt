@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.pdb
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csprojAssemblyReference.cache
@@ -5,12 +6,56 @@ C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\2
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.pdb
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll.config
+=======
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll.config
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.pdb
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csprojAssemblyReference.cache
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CoreCompileInputs.cache
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CopyComplete
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.pdb
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.pdb
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.dll.config
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.pdb
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.dll.config
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll.config
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.pdb
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.dll
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.dll
+>>>>>>> master
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+<<<<<<< HEAD
+=======
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.pdb
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Data.dll.config
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.pdb
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Models.dll.config
+>>>>>>> master
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.xml
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+<<<<<<< HEAD
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CopyComplete
+=======
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csprojAssemblyReference.cache
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CoreCompileInputs.cache
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CopyComplete
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.dll
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.pdb
+>>>>>>> master

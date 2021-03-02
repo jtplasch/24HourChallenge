@@ -4,12 +4,20 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{985FE8AD-F1B1-4F3C-9052-5A58671C484A}</ProjectGuid>
+=======
+    <ProjectGuid>{D279682A-6190-48EA-A177-E92B88F6D6B2}</ProjectGuid>
+>>>>>>> master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_24HourChallenge.Models</RootNamespace>
     <AssemblyName>24HourChallenge.Models</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+>>>>>>> master
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -54,6 +62,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="PostCreate.cs" />
+    <Compile Include="PostDetail.cs" />
+    <Compile Include="PostEdit.cs" />
+    <Compile Include="PostListItems.cs" />
+>>>>>>> master
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,12 +4,20 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{FF4BAA8E-747A-469E-870E-3BB4E02C46B1}</ProjectGuid>
+=======
+    <ProjectGuid>{2E99DD0E-D522-4B8B-B248-A6A18628CB92}</ProjectGuid>
+>>>>>>> master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_24HourChallenge.Data</RootNamespace>
     <AssemblyName>24HourChallenge.Data</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+>>>>>>> master
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -84,10 +92,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Comment.cs" />
     <Compile Include="Reply.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+=======
+    <Compile Include="Post.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IdentityModels.cs" />
+>>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

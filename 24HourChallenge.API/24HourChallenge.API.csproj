@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -308,6 +309,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\24HourChallenge.Data\24HourChallenge.Data.csproj">
+<<<<<<< HEAD
       <Project>{ff4baa8e-747a-469e-870e-3bb4e02c46b1}</Project>
       <Name>24HourChallenge.Data</Name>
     </ProjectReference>
@@ -317,6 +319,17 @@
     </ProjectReference>
     <ProjectReference Include="..\24HourChallenge.Services\24HourChallenge.Services.csproj">
       <Project>{9bb9c5f7-9c41-431c-a7cf-a78059a8d114}</Project>
+=======
+      <Project>{2e99dd0e-d522-4b8b-b248-a6a18628cb92}</Project>
+      <Name>24HourChallenge.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourChallenge.Models\24HourChallenge.Models.csproj">
+      <Project>{d279682a-6190-48ea-a177-e92b88f6d6b2}</Project>
+      <Name>24HourChallenge.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourChallenge.Services\24HourChallenge.Services.csproj">
+      <Project>{ff6966af-9ba2-437a-8aaa-ca5c5694ee2d}</Project>
+>>>>>>> master
       <Name>24HourChallenge.Services</Name>
     </ProjectReference>
   </ItemGroup>

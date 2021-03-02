@@ -8,9 +8,15 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("24HourChallenge.Data")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+<<<<<<< HEAD
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("24HourChallenge.Data")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
+=======
+[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyProduct("24HourChallenge.Data")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
+>>>>>>> master
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +26,11 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
+<<<<<<< HEAD
 [assembly: Guid("ff4baa8e-747a-469e-870e-3bb4e02c46b1")]
+=======
+[assembly: Guid("2e99dd0e-d522-4b8b-b248-a6a18628cb92")]
+>>>>>>> master
 
 // Version information for an assembly consists of the following four values:
 //

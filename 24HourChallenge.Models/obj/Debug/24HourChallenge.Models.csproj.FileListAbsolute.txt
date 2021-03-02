@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.pdb
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csprojAssemblyReference.cache
@@ -5,6 +6,27 @@ C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24H
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.pdb
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll.config
+=======
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll.config
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.pdb
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csprojAssemblyReference.cache
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csproj.CoreCompileInputs.cache
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csproj.CopyComplete
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.dll
+C:\Users\jtpla\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.pdb
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll.config
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.dll
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\24HourChallenge.Models.pdb
+>>>>>>> master
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
@@ -13,4 +35,12 @@ C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Ent
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+<<<<<<< HEAD
 C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csproj.CopyComplete
+=======
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csprojAssemblyReference.cache
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csproj.CoreCompileInputs.cache
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.csproj.CopyComplete
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.dll
+C:\Users\Devon\source\repos\24HourChallenge\24HourChallenge.Models\obj\Debug\24HourChallenge.Models.pdb
+>>>>>>> master

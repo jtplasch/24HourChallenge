@@ -3,7 +3,13 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
+<<<<<<< HEAD
 using _24HourChallenge.Data;
+=======
+using _24HourChallenge.API.Models;
+using _24HourChallenge.Data;
+using System;
+>>>>>>> master
 
 namespace _24HourChallenge.API
 {
@@ -28,7 +34,7 @@ namespace _24HourChallenge.API
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
-                RequiredLength = 6,
+                RequiredLength = 4,
                 RequireNonLetterOrDigit = true,
                 RequireDigit = true,
                 RequireLowercase = true,
@@ -41,5 +47,10 @@ namespace _24HourChallenge.API
             }
             return manager;
         }
+
+        // public override Task<IdentityResult> CreateAsync(ApplicationUser user)
+        // {
+           //  return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
+        // }
     }
 }
