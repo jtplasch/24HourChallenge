@@ -4,16 +4,15 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace _24HourChallenge.Data
+
+namespace _24HourChallenge.Models
 {
-    public class Comment
+    public class CommentCreate
     {
-        [Key]
+        [Required]
         public int CommentId { get; set; }
         [Required]
         public string Content { get; set; }
-        [Required]
-        public Guid OwnerId { get; set; }
-        public virtual List<Comment> Comments { get; set; }
+
     }
 }
