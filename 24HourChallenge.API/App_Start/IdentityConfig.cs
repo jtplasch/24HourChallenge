@@ -4,6 +4,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using _24HourChallenge.API.Models;
+using _24HourChallenge.Data;
+using System;
 
 namespace _24HourChallenge.API
 {
@@ -26,13 +28,13 @@ namespace _24HourChallenge.API
                 RequireUniqueEmail = true
             };
             // Configure validation logic for passwords
-            manager.PasswordValidator = new PasswordValidator
+            manager.PasswordValidator = new PasswordValidator   //made passwords easier to enter
             {
-                RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
-                RequireLowercase = true,
-                RequireUppercase = true,
+                RequiredLength = 4,
+                RequireNonLetterOrDigit = false,
+                RequireDigit = false,
+                RequireLowercase = false,
+                RequireUppercase = false,
             };
             var dataProtectionProvider = options.DataProtectionProvider;
             if (dataProtectionProvider != null)
@@ -41,5 +43,10 @@ namespace _24HourChallenge.API
             }
             return manager;
         }
+
+        // public override Task<IdentityResult> CreateAsync(ApplicationUser user)
+        // {
+           //  return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
+        // }
     }
 }
