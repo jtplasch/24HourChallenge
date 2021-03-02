@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace _24HourChallenge.Models
 {
-    public class CommentListItems
+    public class ReplyDetail
     {
-<<<<<<< HEAD
-=======
-        public string Title { get; set; }
->>>>>>> 70155546c9227e1661153c56501bf6434cdaa99e
+        public int ReplyId { get; set; }
         public string Content { get; set; }
         public Guid OwnerId { get; set; }
     }

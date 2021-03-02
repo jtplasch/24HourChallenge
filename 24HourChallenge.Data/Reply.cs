@@ -12,7 +12,7 @@ namespace _24HourChallenge.Data
         [Key]
         public int ReplyId { get; set; }
         [Required]
-        public string Text { get; set; }
+        public string Content { get; set; }
         [Required]
         public Guid OwnerId { get; set; }
         public virtual List<Reply> Replies { get; set; }
