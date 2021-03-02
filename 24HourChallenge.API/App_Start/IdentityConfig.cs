@@ -44,9 +44,9 @@ namespace _24HourChallenge.API
             return manager;
         }
 
-        internal Task<IdentityResult> CreateAsync(ApplicationUser user)
-        {
-            throw new NotImplementedException();
-        }
+        // public override Task<IdentityResult> CreateAsync(ApplicationUser user)
+        // {
+           //  return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
+        // }
     }
 }

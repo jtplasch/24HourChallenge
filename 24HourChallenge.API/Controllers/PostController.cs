@@ -20,6 +20,12 @@ namespace _24HourChallenge.API.Controllers
             return Ok(posts);
         }
 
+        public IHttpActionResult Get(int id)
+        {
+            PostService postService = CreatePostService();
+            var post = postService.GetPostById(id);
+            return Ok(post);
+        }
         public IHttpActionResult Post(PostCreate post)
         {
             if (!ModelState.IsValid)
@@ -28,6 +34,19 @@ namespace _24HourChallenge.API.Controllers
             var service = CreatePostService();
 
             if (!service.CreatePost(post))
+                return InternalServerError();
+
+            return Ok();
+        }
+
+        public IHttpActionResult Put(PostEdit post)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var service = CreatePostService();
+
+            if (!service.UpdatePost(post))
                 return InternalServerError();
 
             return Ok();

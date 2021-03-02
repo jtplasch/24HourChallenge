@@ -53,5 +53,39 @@ namespace _24HourChallenge.Services
                 return query.ToArray();
             }
         }
+
+        public PostDetail GetPostById(int id)
+        {
+            using(var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Posts
+                        .Single(e => e.PostId == id && e.OwnerId == _userId);
+                return
+                    new PostDetail
+                    {
+                        PostId = entity.PostId,
+                        Title = entity.Title,
+                        Content = entity.Content
+                    };
+            }
+        }
+
+        public bool UpdatePost(PostEdit model)
+        {
+            using(var ctx = new ApplicationDbContext())
+            {
+                var entity = 
+                    ctx
+                        .Posts
+                        .Single(e => e.PostId == model.PostId && e.OwnerId == _userId);
+
+                entity.Title = model.Title;
+                entity.Content = model.Content;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
     }
 }
