@@ -13,6 +13,7 @@ namespace _24HourChallenge.Models
         [MaxLength(100, ErrorMessage = "You have reached the character limit")]
         public string Title { get; set; }
 
+        [Required]
         [MaxLength(4000, ErrorMessage = "You have reached the character limit")]
         public string Content { get; set; }
     }
