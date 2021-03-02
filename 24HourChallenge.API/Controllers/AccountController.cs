@@ -16,6 +16,9 @@ using Microsoft.Owin.Security.OAuth;
 using _24HourChallenge.API.Models;
 using _24HourChallenge.API.Providers;
 using _24HourChallenge.API.Results;
+using _24HourChallenge.Data;
+
+
 
 namespace _24HourChallenge.API.Controllers
 {
