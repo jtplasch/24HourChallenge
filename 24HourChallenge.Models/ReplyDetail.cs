@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _24HourChallenge.Models
 {
-    class ReplyDetail
+    public class ReplyDetail
     {
+        public int ReplyId { get; set; }
+        public string Content { get; set; }
+        public Guid OwnerId { get; set; }
     }
 }
