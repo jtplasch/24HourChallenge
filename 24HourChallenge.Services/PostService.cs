@@ -38,17 +38,14 @@ namespace _24HourChallenge.Services
         {
             using(var ctx = new ApplicationDbContext())
             {
-                var query =
-                    ctx
-                        .Posts
+                var query = ctx.Posts
                         .Where(e => e.OwnerId == _userId)
-                        .Select(
-                            e =>
-                                new PostListItems
-                                {
-                                    PostId = e.PostId,
-                                    Title = e.Title,
-                                }
+                        .Select(e =>
+                            new PostListItems
+                            {
+                                PostId = e.PostId,
+                                Title = e.Title,
+                            }
                         );
                 return query.ToArray();
             }
